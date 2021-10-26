@@ -22,9 +22,9 @@
 //                     | DEL  | GUI  | RET  |  SPACE  |  LOWER  |  |  RAISE  |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp TAB  &kp Q &kp W &kp E        &kp R        &kp T                                            &kp Y &kp U &kp I    &kp O   &kp P    &kp BKSP
-	&kp LCTL  &kp A &kp S &kp D &kp F &kp G                                       &kp H &kp J &kp K    &kp L   &kp SCLN &kp QUOT
-	&kp LSFT &kp Z &kp X &kp C        &kp V        &kp B &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp RSFT
-	              &kp DEL &kp LGUI      &kp LGUI &mo LOWER &kp RET           &kp SPC &mo RAISE   &kp LALT &kp BKSP &kp RALT
+	&kp LSFT  &kp A &kp S &kp D &kp F &kp G                                       &kp H &kp J &kp K    &kp L   &kp SCLN &kp QUOT
+	&kp LCTL &kp Z &kp X &kp C        &kp V        &kp B &kp LGUI &kp ESC       &kp K_VOL_UP2 &kp UP &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp RSFT
+	              &mo LOWER &kp LALT  &kp LSHFT &kp SPACE &kp RET           &kp LEFT  &kp DOWN  &kp RIGHT &mo 1 &kp K_VOL_DN2
 			>;
 
 			sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
